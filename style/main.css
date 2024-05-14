@@ -1,0 +1,71 @@
+/*Header*/
+
+.github{
+    display: flex;
+    
+}
+.github img{
+    width: 30px;
+    height: 20px;
+    z-index: -1;
+    padding: 10px 10px 10px 10px;
+}
+.github a{
+    color: black;
+}
+.social-media{
+    display: flex;
+    
+}
+.social-media img{
+    width: 30px;
+    height: 22px;
+    z-index: -1;
+    padding: 10px 12px 10px 10px;
+    
+}
+.social-media a{
+    color: black;
+}
+body, html{
+    height: 100%;
+    margin: 0;
+}
+.bg{
+    max-width: max-content;
+    max-height: max-content;
+    background: url("C:/Users/HP/Desktop/Tudo vscode/Practice_project/images/plano-fundo.jpg") no-repeat left top fixed;
+}
+
+/*Main */
+.foto_perfil{
+    display: grid;
+    grid-template-columns: repeat(1/3);
+    grid-template-rows: repeat(1/4);
+    padding-left: 10px;
+}
+.foto_perfil h1{
+    text-align: center;
+    width: 50%;
+    border-radius: 10px;
+    color: white;
+    background-color: purple;
+    grid-column: 1/2;
+    grid-row: 1/1;
+}
+.foto_perfil p{
+    color: white;
+    background-color: purple;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 20%;
+    text-align: auto;
+
+}
+.foto_perfil img {
+    width: 100px;
+    height: 70px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding-left: 40px;
+}
